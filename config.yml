@@ -1,0 +1,61 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Guilherme Fahur Bottino"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 5
+
+params:
+  assets:
+    css:
+      - "/css/extra.css"
+  env: production
+  description: "Computational Biologist · Data Scientist · Educator"
+  author: "Guilherme Fahur Bottino"
+  defaultTheme: auto
+  disableThemeToggle: true
+  profileMode:
+    enabled: true
+    title: "Guilherme Fahur Bottino"
+    subtitle: "Computational Biologist · Data Scientist · Educator"
+    imageUrl: "img/headshot.jpg"
+    imageTitle: "Profile"
+    buttons:
+      - name: About
+        url: "/about/"
+      - name: Research
+        url: "/research/"
+      - name: Publications
+        url: "/publications/"
+      - name: Contact
+        url: "/contact/"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/gfahurbottino"
+    - name: orcid
+      url: "https://orcid.org/—"
+    - name: linkedin
+      url: "https://linkedin.com/in/—"
+    - name: googlescholar
+      url: "mailto:guilherme@example.com"
+    - name: bluesky
+      url: "mailto:guilherme@example.com"
+    - name: email
+      url: "mailto:gz101@wellesley.edu"
+    - name: cv
+      url: "mailto:gz101@wellesley.edu"
+menu:
+  main:
+    - name: About
+      url: /about/
+    - name: Research
+      url: /research/
+    - name: Publications
+      url: /publications/
+    - name: Contact
+      url: /contact/
+  buttons:
+    - name: Cirriculum Vitae
+      url: "/about/"
