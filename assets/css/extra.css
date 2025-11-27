@@ -1,0 +1,18 @@
+:root {
+  --theme: #1e1e2e;   /* background */
+  --entry: #ffffff;   /* card background */
+  --primary: #4361ee; /* links/buttons */
+}
+
+/* increase hero image size */
+.profile img {
+  width: 220px !important;   /* default ~150px */
+  height: 220px !important;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* optional: add subtle shadow or border */
+.profile img {
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
