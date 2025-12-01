@@ -8,13 +8,13 @@ pagination:
 
 params:
   assets:
-    css:
-      - "/css/extra.css"
+    css: "css/extra.css"
+    favicon: "img/favicon.svg"
   env: production
   description: "Computational Biologist · Data Scientist · Educator"
   author: "Guilherme Fahur Bottino"
   defaultTheme: auto
-  disableThemeToggle: true
+  disableThemeToggle: false
   profileMode:
     enabled: true
     title: "Guilherme Fahur Bottino"
@@ -26,36 +26,40 @@ params:
         url: "/about/"
       - name: Research
         url: "/research/"
+      - name: Teaching
+        url: "/teaching/"
       - name: Publications
         url: "/publications/"
-      - name: Contact
-        url: "/contact/"
 
   socialIcons:
     - name: github
-      url: "https://github.com/gfahurbottino"
+      url: "https://github.com/Hugemiler"
     - name: orcid
-      url: "https://orcid.org/—"
+      url: "https://orcid.org/0000-0003-1953-1576"
     - name: linkedin
-      url: "https://linkedin.com/in/—"
+      url: "https://www.linkedin.com/in/guilherme-fahur-bottino-17a3709b/"
     - name: googlescholar
-      url: "mailto:guilherme@example.com"
+      url: "https://scholar.google.com/citations?user=-o1LscoAAAAJ&hl=en"
     - name: bluesky
-      url: "mailto:guilherme@example.com"
+      url: "https://bsky.app/profile/gfahurbottino.bsky.social"
     - name: email
       url: "mailto:gz101@wellesley.edu"
     - name: cv
-      url: "mailto:gz101@wellesley.edu"
+      url: "doc/Academic_CV_Bottino.pdf"
 menu:
   main:
     - name: About
-      url: /about/
-    - name: Research
-      url: /research/
-    - name: Publications
-      url: /publications/
-    - name: Contact
-      url: /contact/
-  buttons:
-    - name: Cirriculum Vitae
       url: "/about/"
+      weight: 10
+    - name: Research
+      url: "/research/"
+      weight: 20
+    - name: Teaching
+      url: "/teaching/"
+      weight: 30
+    - name: Publications
+      url: "/publications/"
+      weight: 40
+    - name: CV
+      url: "doc/Academic_CV_Bottino.pdf"
+      weight: 50
